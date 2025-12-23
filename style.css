@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background-color: white;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator-frame {
+  background-color: darkgrey;
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+  height: 75vh;
+}
+
+.display {
+  background-color: lightgrey;
+  display: flex;
+  height: 10vh;
+  margin: 25px;
+  align-items: center;
+  justify-content: end;
+  padding: 0 20px;
+  font-size: 48px;
+}
+
+.buttons {
+  background-color: lightgrey;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 25px 25px;
+  flex: 1;
+  padding: 20px;
+}
+
+.buttons :hover {
+  cursor: pointer;
+}
+
+.buttons button {
+  width: 25%;
+  height: 56px;
+  font-size: 20px;
+  border: 1px solid #999;
+}
+
+.buttons button.wide {
+  width: 50%;
+}
